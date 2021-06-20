@@ -1,6 +1,6 @@
 # GIT第二天
 
-### 本地和远程仓库相关联
+### 本地和远程仓库相关联(推荐是在已经有代码的情况下)
 
 ```
 #在项目目录下新建一个文件(建议是README.md)
@@ -51,9 +51,7 @@ git push -u origin master
 
   6. 在git命令行中输入ssh -T git@github.com, 显示Hi SkeaySherry! You've successfully authenticated, but GitHub does not provide shell access. 则配置成功
 
-     
-
-     ### 更换远程仓库地址
+    ###  更换远程仓库地址
 
      1. git remove rm origin -删除已经配置的网络仓库地址
 
@@ -67,5 +65,11 @@ git push -u origin master
 
         2. git commit -m "message"
         3. git push 
-
      
+     ### 全新仓库创建(在项目还未开始时)
+
+     1. 在github 中新建仓库,默认生成一个README文件
+     2. 在项目页面的code按钮下复制ssh地址
+     3. 找到想存放项目的目录,右键打开git命令行
+     4. 在命令行输入git clone 仓库ssh地址
+     5. 不需要任何配置,直接使用add commit push就可以进行推送
