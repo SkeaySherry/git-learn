@@ -1,6 +1,6 @@
-#### GIT第二天
+# GIT第二天
 
-##### 本地和远程仓库相关联
+### 本地和远程仓库相关联
 
 ```
 #在项目目录下新建一个文件(建议是README.md)
@@ -14,13 +14,15 @@ git remote add origin git@github.com:SkeaySherry/git-learn.git
 git push -u origin master
 ```
 
-#### HTTPS协议和SSH协议的区别
+### HTTPS协议和SSH协议的区别
 
 - HTTPS协议 -提交的时候会验证用户信息(验人)
 
 - SSH协议 -需要进行配置, 配置好后不需要验证用户信息(验机器)
 
-  #### SSH的配置
+  
+
+  ### SSH的配置
 
   ##### 生成key
 
@@ -35,7 +37,7 @@ git push -u origin master
 
   3.在C:\Users\用户名\\.ssh下查看生成的key文件id_rsa是私钥文件,id_rsa.pub是公钥文件
 
-  #### 添加密钥到Github
+  ##### 添加密钥到Github
 
   1. 复制刚生成的id-rsa.pub文件的内容
 
@@ -49,11 +51,15 @@ git push -u origin master
 
   6. 在git命令行中输入ssh -T git@github.com, 显示Hi SkeaySherry! You've successfully authenticated, but GitHub does not provide shell access. 则配置成功
 
-     #### 更换远程仓库地址
+     
+
+     ### 更换远程仓库地址
 
      1. git remove rm origin -删除已经配置的网络仓库地址
 
      2. git remove add origin ssh地址
+
+        
 
         ### 提交步骤
 
