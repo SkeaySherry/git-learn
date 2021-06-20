@@ -65,7 +65,7 @@ git push -u origin master
 
         2. git commit -m "message"
         3. git push 
-     
+    
      ### 全新仓库创建(在项目还未开始时)
 
      1. 在github 中新建仓库,默认生成一个README文件
@@ -90,4 +90,12 @@ git checkout 分支名
 
 #### 新建分支并且切换到新建分支
 
-git checkout -b 分支名
+git checkout -b 分支名 
+
+#### 合并分支
+
+git merge 分支名
+
+#### 删除分支
+
+git branch -d 分支名
