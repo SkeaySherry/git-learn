@@ -73,3 +73,21 @@ git push -u origin master
      3. 找到想存放项目的目录,右键打开git命令行
      4. 在命令行输入git clone 仓库ssh地址
      5. 不需要任何配置,直接使用add commit push就可以进行推送
+
+### 分支
+
+#### 查看分支
+
+git branch
+
+#### 新建分支
+
+git branch 分支名
+
+#### 切换到新建分支
+
+git checkout 分支名
+
+#### 新建分支并且切换到新建分支
+
+git checkout -b 分支名
